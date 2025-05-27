@@ -1,0 +1,55 @@
+Cubemain Ops (1.10)
+
+op      Skip recipe if ...
+--------------------------------------------------------
+ 1      DayOfMonth is less than Param or greater than Value
+ 2      DayOfWeek != Value ( 1 = Sunday, ...)
+
+~~~~~~ 10519 ~~~~~~~~~~ Stat.Accr
+
+ 3      player stat(param) < value
+ 4      player stat(param) > value
+ 5      player stat(param) = value
+ 6      player stat(param) ! value
+
+~~~~~~ 10521 ~~~~~~~~~ Stat.Base
+
+ 7      player stat(param) < value
+ 8      player stat(param) > value
+ 9      player stat(param) = value
+10      player stat(param) ! value
+
+~~~~~~ 10522 ~~~~~~~~~ Stat.Bonus  (accr - base)
+
+11      player stat(param) < value
+12      player stat(param) > value
+13      player stat(param) = value
+14      player stat(param) ! value
+
+        Fail Item if ...
+--------------------------------------------------------
+
+~~~~~~ 10519 ~~~~~~~~~ Stat.Accr
+
+15      item stat(param) < value
+16      item stat(param) > value
+17      item stat(param) = value
+18      item stat(param) ! value
+
+~~~~~~ 10521 ~~~~~~~~~ Stat.Base
+
+19      item stat(param) < value
+20      item stat(param) > value
+21      item stat(param) = value
+22      item stat(param) ! value
+
+~~~~~~ 10522 ~~~~~~~~~ Stat.Bonus  (accr - base)
+
+23      item stat(param) < value
+24      item stat(param) > value
+25      item stat(param) = value
+26      item stat(param) ! value
+
+27      pItem->OtherID != value
+28      pItem->QuestDiff < ptGame->Diff 
+        (only checked if Quest and QuestDiffCheck are 1)

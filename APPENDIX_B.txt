@@ -1,0 +1,41 @@
+item quality params:
+
+any = Any item (*Not Advised)
+
+low = low quality
+hiq = superior
+
+nor = Normal
+mag = Magic
+rar = Rare
+set = Set
+uni = Unique
+crf = Crafted
+tmp = Tempered
+
+eth = Ethereal
+noe = Not Ethereal
+
+nos = No Socket (for input)
+sock = # sockets (eg: sock=4)
+
+pre = Prefix (ID from magicprefix.txt) - ID = (Row Number - 2)
+suf = Suffix (ID from magicsuffix.txt) - ID = (Row Number - 2)
+
+rep = Repair durability
+rch = Recharge Quantity
+
+qty = amount of same item (eg: "hpot,qty=3" means 3 hp potions)
+upg = For inputs only, Item is upgraded.
+bas = Base item
+exc = Exceptional
+eli = Elite
+
+usetype = Uses base type of input1 for output
+useitem = Uses item from input 1
+
+uns = Unsocket Item (destroys gems)
+rem = Unsocket Item (removes gems)
+
+reg = Regenerate? Seems to reroll the item
+mod = Transfers properties from input1 to output item.
