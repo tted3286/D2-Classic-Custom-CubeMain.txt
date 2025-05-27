@@ -1,0 +1,263 @@
+description	enabled		min diff	version	op	param	value	class	numinputs	input 1	input 2	input 3	input 4	input 5	input 6	input 7	output	lvl	plvl	ilvl	mod 1	mod 1 chance	mod 1 param	mod 1 min	mod 1 max	mod 2	mod 2 chance	mod 2 param	mod 2 min	mod 2 max	mod 3	mod 3 chance	mod 3 param	mod 3 min	mod 3 max	mod 4	mod 4 chance	mod 4 param	mod 4 min	mod 4 max	mod 5	mod 5 chance	mod 5 param	mod 5 min	mod 5 max	output b	b lvl	b plvl	b ilvl	b mod 1	b mod 1 chance	b mod 1 param	b mod 1 min	b mod 1 max	b mod 2	b mod 2 chance	b mod 2 param	b mod 2 min	b mod 2 max	b mod 3	b mod 3 chance	b mod 3 param	b mod 3 min	b mod 3 max	b mod 4	b mod 4 chance	b mod 4 param	b mod 4 min	b mod 4 max	b mod 5	b mod 5 chance	b mod 5 param	b mod 5 min	b mod 5 max	output c	c lvl	c plvl	c ilvl	c mod 1	c mod 1 chance	c mod 1 param	c mod 1 min	c mod 1 max	c mod 2	c mod 2 chance	c mod 2 param	c mod 2 min	c mod 2 max	c mod 3	c mod 3 chance	c mod 3 param	c mod 3 min	c mod 3 max	c mod 4	c mod 4 chance	c mod 4 param	c mod 4 min	c mod 4 max	c mod 5	c mod 5 chance	c mod 5 param	c mod 5 min	c mod 5 max	*eol
+Staff of Kings + Viper amulet -> Horadric Staff	1			0	28				2	msf	vip						hst																																																																																							0
+Khalim Flail + Khalim Heart + Khalim Eye + Khalim Brain -> Super Khalim Flail	1			0	28				4	qf1	qhr	qey	qbr				qf2																																																																																							0
+1 Wirt's leg + 1 town portal book -> portal to cow lvl	1			0	28				2	leg	tbk						Cow Portal																																																																																							0
+12 mana potions -> full rejuvenate potion	1			0					12	mpot,qty=12							rvl																																																																																							0
+2 health potions +  2 mana potions -> rejuvenate potion	1			0					4	hpot,qty=2	mpot,qty=2						rvs																																																																																							0
+3 small rejuvs -> one large	1			0					3	rvs,qty=3							rvl																																																																																							0
+1 perfect gem of each type + 1 amulet -> prismatic amulet	1			0					7	amu,mag	gpv	gpy	gpb	gpg	gpr	gpw	amu,mag,pre=331	66		66																																																																																				0
+1 ring + 1 perfect ruby + 1 exploding potions -> garnet ring	1			0					3	rin,mag	gpr	opm					rin,mag,pre=372	48		48																																																																																				0
+1 ring + 1 perfect sapphire + 1 thawing potions-> cobalt ring	1			0					3	rin,mag	gpb	wms					rin,mag,pre=353	48		48																																																																																				0
+1 ring + 1 perfect topaz + 1 rejuvenation -> coral ring	1			0					3	rin,mag	gpy	rvs					rin,mag,pre=392	48		48																																																																																				0
+1 ring + 1 emerald + 1 antidote potions -> jade ring	1			0					3	rin,mag	gpg	yps					rin,mag,pre=412	48		48																																																																																				0
+1 axe + 1 dagger -> Exceptional Throwing axe	1			0					2	axe	knif						tax,exp																																																																																							0
+1 spear + 1 arrow quiver -> javelins	1			0					2	spea	aqv						jav,nor																																																																																							0
+2  MAGICAL RINGS -> amulet	1			0					2	rin,mag,qty=2							amu,mag		75																																																																																					0
+2  MAGICAL AMULETS -> ring	1			0					2	amu,mag,qty=2							rin,mag		75																																																																																					0
+1 Magic Shield (any type) + 1 Spiked Club (any quality) + 1 Skulls (any quality) = Magic Shield of Spikes	1			0					3	shld,mag	gemz,qty=1	spc					usetype,mag,suf=162	42		60																																																																																				0
+4 Health Potions (of any type) + Ruby (any type) + Magical Sword = A Magic Sword of the Leech	1			0					6	swor,mag	gemr	hpot,qty=4					usetype,mag,suf=352	42		60																																																																																				0
+1 diamond + 1 kriss + 1 staff + 1 belt -> SAVAGE polearm	1			0					4	kri	gemd	staf	belt				pole,mag,pre=191	50		60																																																																																				0
+1 strangling gas potion + 1 health potion -> antidote potion	1			0					2	gpl	hpot						yps																																																																																							0
+2 arrows -> bolts	1			0					2	aqv,qty=2							cqv																																																																																							0
+2 bolts -> arrows	1			0					2	cqv,qty=2							aqv																																																																																							0
+2 Chipped amethysts -> flawed amethyst	1			0					2	gcv,qty=2							gfv																																																																																							0
+2 Flawed amethysts -> standard amethyst	1			0					2	gfv,qty=2							gsv																																																																																							0
+2 Standard amethysts -> flawless amethyst	1			0					2	gsv,qty=2							gzv																																																																																							0
+2 Flawless amethysts -> perfect amethyst	1			0					2	gzv,qty=2							gpv																																																																																							0
+2 Chipped rubies -> flawed ruby	1			0					2	gcr,qty=2							gfr																																																																																							0
+2 Flawed rubies -> standard ruby	1			0					2	gfr,qty=2							gsr																																																																																							0
+2 Standard rubies -> flawless ruby	1			0					2	gsr,qty=2							glr																																																																																							0
+2 Flawless rubies -> perfect ruby	1			0					2	glr,qty=2							gpr																																																																																							0
+2 Chipped sapphires -> flawed sapphire	1			0					2	gcb,qty=2							gfb																																																																																							0
+2 Flawed sapphires -> standard sapphire	1			0					2	gfb,qty=2							gsb																																																																																							0
+2 Standard sapphires -> flawless sapphire	1			0					2	gsb,qty=2							glb																																																																																							0
+2 Flawless sapphires -> perfect sapphire	1			0					2	glb,qty=2							gpb																																																																																							0
+2 Chipped topazes -> flawed topaz	1			0					2	gcy,qty=2							gfy																																																																																							0
+2 Flawed topazes -> standard topaz	1			0					2	gfy,qty=2							gsy																																																																																							0
+2 Standard topazes -> flawless topaz	1			0					2	gsy,qty=2							gly																																																																																							0
+2 Flawless topazes -> perfect topaz	1			0					2	gly,qty=2							gpy																																																																																							0
+2 Chipped emeralds -> flawed emerald	1			0					2	gcg,qty=2							gfg																																																																																							0
+2 Flawed emeralds -> standard emerald	1			0					2	gfg,qty=2							gsg																																																																																							0
+2 Standard emeralds -> flawless emerald	1			0					2	gsg,qty=2							glg																																																																																							0
+2 Flawless emeralds -> perfect emerald	1			0					2	glg,qty=2							gpg																																																																																							0
+2 Chipped diamonds -> flawed diamond	1			0					2	gcw,qty=2							gfw																																																																																							0
+2 Flawed diamonds -> standard diamond	1			0					2	gfw,qty=2							gsw																																																																																							0
+2 Standard diamonds -> flawless diamond	1			0					2	gsw,qty=2							glw																																																																																							0
+2 Flawless diamonds -> perfect diamond	1			0					2	glw,qty=2							gpw																																																																																							0
+2 Chipped skulls -> flawed skull	1			0					2	skc,qty=2							skf																																																																																							0
+2 Flawed skulls -> standard skull	1			0					2	skf,qty=2							sku																																																																																							0
+2 Standard skulls -> flawless skull	1			0					2	sku,qty=2							skl																																																																																							0
+3 Flawless skulls -> perfect skull	1			0					3	skl,qty=3							skz																																																																																							0
+2 EL RUNES -> 1 ELD 	1			100					2	r01,qty=2							r02																																																																																							0
+2 ELD RUNES -> 1 TIR	1			100					2	r02,qty=2							r03																																																																																							0
+2 TIR RUNES -> 1 NEF 	1			100					2	r03,qty=2							r04																																																																																							0
+2 NEF RUNES -> 1 ETH	1			100					2	r04,qty=2							r05																																																																																							0
+2 ETH RUNES -> 1 ITH	1			100					2	r05,qty=2							r06																																																																																							0
+2 ITH RUNES -> 1 TAL	1			100					2	r06,qty=2							r07																																																																																							0
+2 TAL RUNES -> 1 RAL	1			100					2	r07,qty=2							r08																																																																																							0
+2 RAL RUNES -> 1 ORT	1			100					2	r08,qty=2							r09																																																																																							0
+2 ORT RUNES -> 1 THUL	1			100					2	r09,qty=2							r10																																																																																							0
+magic full helm + jewel + rune 06 + perfect sapphire -> hitpower helm	1			100					4	fhl,mag,upg	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	7	ac-miss			25	50																																																																					0
+magic chain boots + jewel + rune 08 + perfect sapphire -> hitpower boots	1			100					4	mbt,mag,upg	jew	r08	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	7	ac-hth			25	60																																																																					0
+magic chain gloves + jewel + rune 09 + perfect sapphire -> hitpower gloves	1			100					4	mgl,mag,upg	jew	r09	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	7	knock			1	1																																																																					0
+magic heavy belt + jewel + rune 07 + perfect sapphire -> hitpower belt	1			100					4	tbl,mag,upg	jew	r07	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	7	dmg-to-mana			5	10																																																																					0
+magic gothic shield + jewel + rune 05 + perfect sapphire -> hitpower shield	1			100					4	gts,mag,upg	jew	r05	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	10	block			5	10																																																																					0
+magic field plate + jewel + rune 04 + perfect sapphire -> hitpower body	1			100					4	fld,mag,upg	jew	r04	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	10	balance1			10	20																																																																					0
+magic amulet + jewel + rune 10 + perfect sapphire -> hitpower amulet	1			100					4	amul,mag	jew	r10	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	10	howl			5	15																																																																					0
+magic ring + jewel + rune 11 + perfect sapphire -> hitpower ring	1			100					4	ring,mag	jew	r11	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	6	dex			1	5																																																																					0
+magic blunt + jewel + rune 03 + perfect sapphire -> hitpower weapon	1			100					4	blun,mag	jew	r03	gpb				usetype,crf		50	50	gethit-skill		44	5	4	thorns			3	7	dmg%			35	60																																																																					0
+magic helm + jewel + rune 08 + perfect ruby -> blood helm	1			100					4	hlm,mag,upg	jew	r08	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	deadly			5	10																																																																					0
+magic light plated boots + jewel + rune 05 + perfect ruby -> blood boots	1			100					4	tbt,mag,upg	jew	r05	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	regen			5	10																																																																					0
+magic heavy gloves + jewel + rune 04 + perfect ruby -> blood gloves	1			100					4	vgl,mag,upg	jew	r04	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	crush			5	10																																																																					0
+magic belt + jewel + rune 07 + perfect ruby -> blood belt	1			100					4	mbl,mag,upg	jew	r07	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	openwounds			5	10																																																																					0
+magic spiked shield + jewel + rune 06 + perfect ruby -> blood shield	1			100					4	spk,mag,upg	jew	r06	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	thorns			4	7																																																																					0
+magic plate mail + jewel + rune 10 + perfect ruby -> blood body	1			100					4	plt,mag,upg	jew	r10	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	demon-heal			1	3																																																																					0
+magic amulet + jewel + rune 11 + perfect ruby -> blood amulet	1			100					4	amul,mag	jew	r11	gpr				usetype,crf		50	50	lifesteal			1	4	hp			10	20	move1			5	10																																																																					0
+magic ring + jewel + rune 12 + perfect ruby -> blood ring	1			100					4	ring,mag	jew	r12	gpr				usetype,crf		50	50	lifesteal			1	3	hp			10	20	str			1	5																																																																					0
+magic axe + jewel + rune 09 + perfect ruby -> blood weapon	1			100					4	axe,mag	jew	r09	gpr				usetype,crf		50	50	lifesteal			1	4	hp			10	20	dmg%			35	60																																																																					0
+magic mask + jewel + rune 04 + perfect amethyst -> caster helm	1			100					4	msk,mag,upg	jew	r04	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	manasteal			1	4																																																																					0
+magic boots + jewel + rune 10 + perfect amethyst -> caster boots	1			100					4	lbt,mag,upg	jew	r10	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana%			2	5																																																																					0
+magic leather gloves + jewel + rune 09 + perfect amethyst -> caster gloves	1			100					4	lgl,mag,upg	jew	r09	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+magic light belt + jewel + rune 06 + perfect amethyst -> caster belt	1			100					4	vbl,mag,upg	jew	r06	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+magic small shield + jewel + rune 05 + perfect amethyst -> caster shield	1			100					4	sml,mag,upg	jew	r05	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	block			5	10																																																																					0
+magic light plate + jewel + rune 07 + perfect amethyst -> caster body	1			100					4	ltp,mag,upg	jew	r07	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+magic amulet + jewel + rune 08 + perfect amethyst -> caster amulet	1			100					4	amul,mag	jew	r08	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+magic ring + jewel + rune 11 + perfect amethyst -> caster ring	1			100					4	ring,mag	jew	r11	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	enr			1	5																																																																					0
+magic rod + jewel + rune 03 + perfect amethyst -> caster weapon	1			100					4	rod,mag	jew	r03	gpv				usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana%			1	5																																																																					0
+magic crown + jewel + rune 06 + perfect emerald -> safety helm	1			100					4	crn,mag,upg	jew	r06	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-ltng			5	10	ac%			10	30																																																																0
+magic plate boots + jewel + rune 09 + perfect emerald -> safety boots	1			100					4	hbt,mag,upg	jew	r09	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-fire			5	10	ac%			10	30																																																																0
+magic gauntlets + jewel + rune 08 + perfect emerald -> safety gloves	1			100					4	hgl,mag,upg	jew	r08	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-cold			5	10	ac%			10	30																																																																0
+magic sash + jewel + rune 07 + perfect emerald -> safety belt	1			100					4	lbl,mag,upg	jew	r07	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-pois			5	10	ac%			10	30																																																																0
+magic kite shield + jewel + rune 04 + perfect emerald -> safety shield	1			100					4	kit,mag,upg	jew	r04	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-mag			5	10	ac%			10	30																																																																0
+magic breastplate + jewel + rune 05 + perfect emerald -> safety body	1			100					4	brs,mag,upg	jew	r05	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	half-freeze			1	1	ac%			10	30																																																																0
+magic amulet + jewel + rune 10 + perfect emerald -> safety amulet	1			100					4	amul,mag	jew	r10	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	block			1	10																																																																					0
+magic ring + jewel + rune 11 + perfect emerald -> safety ring	1			100					4	ring,mag	jew	r11	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	vit			1	5																																																																					0
+magic spear + jewel + rune 12 + perfect emerald -> safety weapon	1			100					4	spea,mag	jew	r12	gpg				usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	ac%			5	10																																																																					0
+2 THUL RUNES+ 1 chipped topaz -> 1 AMN 	1			100					3	r10,qty=2	gfy						r11																																																																																							0
+2 AMN RUNES + 1 chipped amethyst -> 1 SOL	1			100					3	r11,qty=2	gfv						r12																																																																																							0
+2 SOL RUNES + 1 chipped sapphire -> 1 SHAEL	1			100					3	r12,qty=2	gfb						r13																																																																																							0
+2 SHAEL RUNES + 1 chipped ruby -> 1 DOL	1			100					3	r13,qty=2	gfr						r14																																																																																							0
+2 DOL RUNES + 1 chipped emerald -> 1 HEL	1			100					3	r14,qty=2	gfg						r15																																																																																							0
+2 HEL RUNES + 1 chipped diamond -> 1 IO	1			100					3	r15,qty=2	gfw						r16																																																																																							0
+2 IO RUNES + 1 flawed gem -> 1 LUM 	1			100					3	r16,qty=2	gem1						r17																																																																																							0
+2 LUM RUNES + 1 flawed gem -> 1 KO	1			100					3	r17,qty=2	gem1						r18																																																																																							0
+2 KO RUNES + 1 flawed gem -> 1 FAL	1			100					3	r18,qty=2	gem1						r19																																																																																							0
+2 FAL RUNES + 1 flawed gem -> 1 LEM	1			100					3	r19,qty=2	gem1						r20																																																																																							0
+2 LEM RUNES + 1 flawed gem-> 1 PUL	1			100					3	r20,qty=2	gem1						r21																																																																																							0
+2 PUL RUNES + 1 flawed gem -> 1 UM	1			100					3	r21,qty=2	gem1						r22																																																																																							0
+2 UM RUNES + 1 standard gem -> 1 MAL	1			100					3	r22,qty=2	gem2						r23																																																																																							0
+2 MAL RUNES + 1 standard gem-> 1 IST	1			100					3	r23,qty=2	gem2						r24																																																																																							0
+2 IST RUNES + 1 standard gem-> 1 GUL	1			100					3	r24,qty=2	gem2						r25																																																																																							0
+2 GUL RUNES + 1 standard gem -> 1 VEX	1			100					3	r25,qty=2	gem2						r26																																																																																							0
+2 VEX RUNES + 1 standard gem -> 1 OHM	1			100					3	r26,qty=2	gem2						r27																																																																																							0
+2 OHM RUNES + 1 standard gem -> 1 LO	1			100					3	r27,qty=2	gem2						r28																																																																																							0
+2 LO RUNES + 1 flawless topaz -> 1 SUR	1			100					3	r28,qty=2	gsy						r29																																																																																							0
+2 SUR RUNES+ 1 flawless amethyst -> 1 BER	1			100					3	r29,qty=2	gsv						r30																																																																																							0
+2 BER RUNES + 1 flawless sapphire -> 1 JAH	1			100					3	r30,qty=2	gsb						r31																																																																																							0
+2 JAH RUNES + 1 flawless ruby -> 1 CHAM	1			100					3	r31,qty=2	gsr						r32																																																																																							0
+3 CHAM RUNES + 1 flawless emerald -> 1 ZOD	1			100					4	r32,qty=3	gsg						r33																																																																																							0
+1 Potion of Rejuvenation + low QUALITY weapon + chipped gem -> superior normal weapon	1			100					3	weap,low	rvs	gem0					useitem,hiq	50	50	50																																																																																				0
+2 Potion of Full Rejuvenation + Weapon + 3 Jewels -> Normal Basic Recharged Repaired Weapon	1			100					6	weap	"rvl,qty=2"	jew,qty=3					"usetype,nor,rep,rch,qty=255"																																																																																							0
+1 Potion of Rejuvenation + Low QUALITY Weapon + chipped gem -> Normal Armor	1			100					3	armo,low	rvs	gem0					usetype,hiq	50	50	50																																																																																				0
+2 Potion of Full Rejuvenation + Armor + 3 Jewels -> Normal Basic Recharged Repaired Armor	1			100					6	armo	"rvl,qty=2"	jew,qty=3					usetype,nor																																																																																							0
+EL + ELD + Weapon -> Repaired Weapon (Inc. Ethereal, runes are precious)	1			100					3	weap,noe	r01	r02					"useitem,rep,qty=255"																																																																																							0
+TAL + Armor -> Repaired Armor (Inc. Ethereal, runes are precious)	1			100					2	armo	r07						"useitem,rep,qty=255"																																																																																							0
+TAL + RAL + Any Item -> Repair + Recharge (Should work on ALL items)	1			100					3	any	r07	r08					"useitem,rep,rch,qty=255"																																																																																							0
+1 Perfect gem + superior armor -> tempered armor (no magical properties)	1			100					2	"armo,hiq,nos"	gem4						"useitem,tmp"																																																																																							0
+1 Perfect gem + superior weapon -> tempered weapon (no magical properties)	1			100					2	"weap,hiq,nos"	gem4						"useitem,tmp"																																																																																							0
+1 Perfect gem + magic ring -> tempered ring (no magical properties)	1			100					2	"ring,mag"	gem4						"usetype,tmp"				levelreq			3	3																																																																															0
+1 Perfect gem + magic amulet -> tempered amulet (no magical properties)	1			100					2	"amu,mag"	gem4						"usetype,tmp"				levelreq			5	5																																																																															0
+2 Perfect skull + tempered weapon -> Uber Tyriel's Fist (increasingly powerful)	1			100					2	"weap,tmp"	skz,qty=2						useitem									aura		122	2	2	dmg			25	50	crush			4	7	deadly			7	11																																																											0
+Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
+Pandemonium Finale key	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
+Token of Absolution	1			100					4	tes	ceh	bet	fed				toa																																																																																							0
+1 ELD Rune -> 2 EL Runes	1			100					1	r02,qty=1							r01																													r01																																																										0
+1 TIR Rune -> 2 ELD Runes	1			100					1	r03,qty=1							r02																													r02																																																										0
+1 NEF Rune -> 2 TIR Runes	1			100					1	r04,qty=1							r03																													r03																																																										0
+1 ETH Rune -> 2 NEF Runes	1			100					1	r05,qty=1							r04																													r04																																																										0
+1 ITH Rune -> 2 ETH Runes	1			100					1	r06,qty=1							r05																													r05																																																										0
+1 TAL Rune -> 2 ITH Runes	1			100					1	r07,qty=1							r06																													r06																																																										0
+1 RAL Rune -> 2 TAL Runes	1			100					1	r08,qty=1							r07																													r07																																																										0
+1 ORT Rune -> 2 RAL Runes	1			100					1	r09,qty=1							r08																													r08																																																										0
+1 THUL Rune -> 2 ORT Runes	1			100					1	r10,qty=1							r09																													r09																																																										0
+1 AMN Rune -> 2 THUL Runes	1			100					1	r11,qty=1							r10																													r10																																																										0
+1 SOL Rune -> 2 AMN Runes	1			100					1	r12,qty=1							r11																													r11																																																										0
+1 SHAEL Rune -> 2 SOL Runes	1			100					1	r13,qty=1							r12																													r12																																																										0
+1 DOL Rune -> 2 SHAEL Runes	1			100					1	r14,qty=1							r13																													r13																																																										0
+1 HEL Rune -> 2 DOL Runes	1			100					1	r15,qty=1							r14																													r14																																																										0
+1 IO Rune -> 2 HEL Runes	1			100					1	r16,qty=1							r15																													r15																																																										0
+1 LUM Rune -> 2 IO Runes	1			100					1	r17,qty=1							r16																													r16																																																										0
+1 KO Rune  + 2 PERFECT GEMS -> 2 LUM Runes	1			100					3	r18,qty=1	"gem4,qty=2"						r17																													r17																																																										0
+1 FALRune  + 2 PERFECT GEMS -> 2 KO Runes	1			100					3	r19,qty=1	"gem4,qty=2"						r18																													r18																																																										0
+1 LEM Rune  + 2 PERFECT GEMS -> 2 FAL Runes	1			100					3	r20,qty=1	"gem4,qty=2"						r19																													r19																																																										0
+1 PUL Rune  + 2 PERFECT GEMS -> 2 LEM Runes	1			100					3	r21,qty=1	"gem4,qty=2"						r20																													r20																																																										0
+1 UM Rune  + 2 PERFECT GEMS -> 2 PUL Runes	1			100					3	r22,qty=1	"gem4,qty=2"						r21																													r21																																																										0
+1 MAL Rune  + 2 PERFECT GEMS -> 2 UMRunes	1			100					3	r23,qty=1	"gem4,qty=2"						r22																													r22																																																										0
+1 IST Rune  + 2 PERFECT GEMS -> 2 MAL Runes	1			100					3	r24,qty=1	"gem4,qty=2"						r23																													r23																																																										0
+1 GUL Rune  + 2 PERFECT GEMS -> 2 IST Runes	1			100					3	r25,qty=1	"gem4,qty=2"						r24																													r24																																																										0
+1 VEX Rune  + 2 PERFECT GEMS -> 2 GULRunes	1			100					3	r26,qty=1	"gem4,qty=2"						r25																													r25																																																										0
+1 OHM Rune  + 2 PERFECT GEMS -> 2 VEX Runes	1			100					3	r27,qty=1	"gem4,qty=2"						r26																													r26																																																										0
+1 LO Rune  + 2 PERFECT GEMS -> 2 OHM Runes	1			100					3	r28,qty=1	"gem4,qty=2"						r27																													r27																																																										0
+1 SUR Rune  + 2 PERFECT GEMS -> 2 LO Runes	1			100					3	r29,qty=1	"gem4,qty=2"						r28																													r28																																																										0
+1 BER Rune  + 2 PERFECT SKULLS -> 2 SUR Runes	1			100					3	r30,qty=1	"skz,qty=2"						r29																													r29																																																										0
+1 JAH Rune  + 2 PERFECT SKULLS -> 2 BER Runes	1			100					3	r31,qty=1	"skz,qty=2"						r30																													r30																																																										0
+1 CHAM Rune  + 2 PERFECT SKULLS -> 2 JAH Runes	1			100					3	r32,qty=1	"skz,qty=2"						r31																													r31																																																										0
+1 ZOD Rune  -> 3 CHAM Runes	1			100					1	r33,qty=1							r32																													r32																													r32																													0
+1 Flawed amethyst -> 2 chipped amethysts	1			0					1	gfv							gcv																													gcv																													gcv																													0
+1 Standard amethyst -> 2 flawed amethysts	1			0					1	gsv							gfv																													gfv																													gfv																													0
+1 Flawless amethyst -> 2 standard amethysts	1			0					1	gzv							gsv																													gsv																													gsv																													0
+1 Perfect amethyst -> 2 flawless amethysts	1			0					1	gpv							gzv																													gzv																													gzv																													0
+1 Flawed ruby -> 2 chipped rubies	1			0					1	gfr							gcr																													gcr																													gcr																													0
+1 Standard ruby -> 2 flawed rubies	1			0					1	gsr							gfr																													gfr																													gfr																													0
+1 Flawless ruby -> 2 standard rubies	1			0					1	glr							gsr																													gsr																													gsr																													0
+1 Perfect ruby -> 2 flawless rubies	1			0					1	gpr							glr																													glr																													glr																													0
+1 Flawed sapphire -> 2 chipped sapphires	1			0					1	gfb							gcb																													gcb																													gcb																													0
+1 Standard sapphire -> 2 flawed sapphires	1			0					1	gsb							gfb																													gfb																													gfb																													0
+1 Flawless sapphire-> 2 standard sapphires	1			0					1	glb							gsb																													gsb																													gsb																													0
+1 Perfect sapphire -> 2 flawless sapphires	1			0					1	gpb							glb																													glb																													glb																													0
+1 Flawed topaz -> 2 chipped topazes	1			0					1	gfy							gcy																													gcy																													gcy																													0
+1 Standard topaz -> 2 flawed topazes	1			0					1	gsy							gfy																													gfy																													gfy																													0
+1 Flawless topaz ->2 standard topazes	1			0					1	gly							gsy																													gsy																													gsy																													0
+1 Perfect topaz -> 2 flawless topazes	1			0					1	gpy							gly																													gly																													gly																													0
+1 Flawed emerald -> 2 chipped emeralds	1			0					1	gfg							gcg																													gcg																													gcg																													0
+1 Standard emerald -> 2 flawed emeralds	1			0					1	gsg							gfg																													gfg																													gfg																													0
+1 Flawless emerald -> 2 standard emeralds	1			0					1	glg							gsg																													gsg																													gsg																													0
+1 Perfect emerald -> 2 flawless emeralds	1			0					1	gpg							glg																													glg																													glg																													0
+1 Flawed diamond -> 2 chipped diamonds	1			0					1	gfw							gcw																													gcw																													gcw																													0
+1 Standard diamond -> 2 flawed diamonds	1			0					1	gsw							gfw																													gfw																													gfw																													0
+1 Flawless diamond -> 2 standard diamonds	1			0					1	glw							gsw																													gsw																													gsw																													0
+1 Perfect diamond -> 2 flawless diamonds	1			0					1	gpw							glw																													glw																													glw																													0
+1 Flawed skull -> 2 chipped skulls	1			0					1	skf							skc																													skc																													skc																													0
+1 Standard skull -> 2 flawed skulls	1			0					1	sku							skf																													skf																													skf																													0
+1 Flawless skull -> 2 standard skulls	1			0					1	skl							sku																													sku																													sku																													0
+1 Perfect skull -> 3 flawless skulls	1			0					1	skz							skl																													skl																													skl																													0
+2 Rare rings -> rare amulet	1			0					2	"rin,rar,qty=2"							amu,rar		99																																																																																					0
+2 Rare amulets -> rare ring	1			0					2	"amu,rar,qty=2"							rin,rar		99																																																																																					0
+2 Magic jewels -> 1 rare jewel	1			100					2	"jew,mag,qty=2"							jew,rar		99																																																																																					0
+2 Rare jewels -> 1 magic jewel	1			100					2	"jew,rar,qty=2"							jew,mag		99																																																																																					0
+2 Small charms -> 1 medium charm	1			100					2	"scha,mag,qty=2"							cm2			99																																																																																				0
+2 Medium charms -> 1 grand charm	1			100					2	"mcha,mag,qty=2"							cm3			99																																																																																				0
+1 grand charms -> 1 small charm	1			100					1	lcha							cm1			99																																																																																				0
+1 Boot + 8 stamina potion -> same boots +20% walk/run speed (Hey Hey)	1			0					9	boot	"vps,qty=8"						useitem				move1			20	20																																																																															0
+1 Charm + 12  Books of Town Portal -> same charm (+1 teleport)	1			100					13	char	"tbk,qty=12"						useitem,rch,qty=255				charged		54	255	1																																																																															0
+1 Charm + 1 dagger + 20 stamina potions -> same charm[lvl30](+1 iron golem, +1 golem mastery)	1			100					22	char	knif	"vps,qty=20"					useitem				oskill		90	1	1	oskill		79	1	1																																																																										0
+1 Set Armor + 1 Normal gem  -> Max Socketed Set Armor (Ehereal Comp)	1			0					2	"armo,set"	gem2,qty=1						useitem,sock=6																																																																																							0
+1 Set Weapon+ 1 Normal gem -> Max Socketed Set Armor (Ehereal Comp)	1			0					2	"weap,set"	gem2,qty=1						useitem,sock=6																																																																																							0
+1 Rare Armor + 1 Flawless gem + Magical Staff -> Socketed Rare Armor (Ehereal Comp) Max 2 Sockets	1			0					3	"armo,rar"	gem3	staf,mag					useitem,sock=2																																																																																							0
+1 Rare Weapon + 1 Flawless gem + Magical Staff -> Socketed Rare Weapon (Ehereal Comp) Max 2 Sockets	1			0					3	"weap,rar"	gem3	staf,mag					useitem,sock=2																																																																																							0
+1 Unique Weapon + 2 Perfect gems + 2 Jewels -> Socketed Unique Weapon oComp) Max 2 Sockets	1			0					3	"armo,uni"	gem4,qty=2	jew,qty=2					useitem,sock=2																																																																																							0
+1 Unique Armor + 2 Perfect gems + 2 Jewels -> Socket Unique Armor (Ehereal Comp) Max 2 Sockets	1			0					3	"weap,uni"	gem4,qty=2	jew,qty=2					useitem,sock=2																																																																																							0
+Easter Egg Hide your Eyes, DO NOT READ THIS ROW	1			0					99	mpot,qty=99							helm,hiq,eth				gold%			411	411	mag%			155	155	light			11	11	gethit-skill		92	100	99	kill-skill		59	100	99																																																											0
+The Barbarian Horde -Easter Egg	1			0					99	rvl,qty=99							helm,hiq				skill		9	5	5	skill		13	5	5	skill		12	5	5	skill		18	5	5																																																																0
+Any Ethereal Item + Any Magical Item -> Non-Ethereal Version of Item	1			100					2	any,eth	any,mag						useitem,mod,nor																																																																																							0
+Any Armor + Ethereal Item -> Ethereal Version of Armor	1			100					2	armo	any,eth						useitem				ethereal		1	1																																																																																0
+Any Armor + ETH Rune -> Ethereal Version of Armor	1			100					2	armo	r05						useitem				ethereal		1	1																																																																																0
+Any Weapon + ETH Rune -> Ethereal Version of Weapon	1			100					2	weap	r05						useitem				ethereal		1	1																																																																																0
+Any Weapon + Ehereal Item -> Ethereal Version of Weapon	1			100					2	weap	any,eth						useitem				ethereal		1	1																																																																																0
+Any Normal Magical Weapon + Jewel + Rejuvenate Potion -> Exceptional Version of Weapon	1			100					3	weap,bas,mag	jew	rvs					useitem,mod,exc																																																																																							0
+Any Exceptional Magical Weapon + Jewel + Full Rejuvenate Potion -> Elite Version of Weapon	1			100					3	weap,exc,mag	jew	rvl					useitem,mod,eli																																																																																							0
+Any Normal Magical Armor + Jewel + Rejuvenate Potion -> Exceptional Version of Armor	1			100					3	armo,bas,mag	jew	rvs					useitem,mod,exc																																																																																							0
+Any Exceptional Magical Armor + Jewel + Full Rejuvenate Potion -> Elite Version of Armor	1			100					3	armo,exc,mag	jew	rvl					useitem,mod,eli																																																																																							0
+Any Normal Set Armor + Jewel + Rejuvenate Potion -> Exceptional Version of Armor	1			100					3	armo,bas,set	jew	rvs					usetype,mod,exc																																																																																							0
+Any Excpetional Set Armor + Jewel + Full Rejuvenate Potion -> Elite Version of Armor	1			100					3	armo,exc,set	jew	rvl					usetype,mod,eli																																																																																							0
+Any Normal Set Weapon + Jewel + Rejuvenate Potion -> Exceptional Version of Weapon	1			100					3	weap,bas,set	jew	rvs					usetype,mod,exc																																																																																							0
+Any Exceptional Set Weapon  + Jewel + Full Rejuvenate Potion -> Elite Version of Weapon	1			100					3	weap,exc,set	jew	rvl					usetype,mod,eli																																																																																							0
+Any Normal Rare Armor + 3 Jewels -> Exceptional Version of Armor	1			100					4	armo,bas,rar	jew,qty=3						useitem,mod,exc																																																																																							0
+Any Normal Rare Weapon + 3 Jewels -> Exceptional Version of Weapon	1			100					4	weap,bas,rar	jew,qty=3						useitem,mod,exc																																																																																							0
+Any Rare Armor + 5 Jewels + Any Rare Non-Armor Item -> Elite version of Armor (1 Shot Elite)	1			100					7	armo,rar	jew,qty=6	any,rar					useitem,mod,eli																																																																																							0
+Any Rare Weapon + 6 Jewels + Any Rare Non-Weapon Item -> Elite version of Weapon	1			100					8	weap,rar	jew,qty=6	any,rar					useitem,mod,eli	30																																																																																						0
+Any Normal Unique Armor + 3 Magic Rings -> Exceptional version of Unique Armor	1			100					4	armo,bas,uni	rin,mag,qty=3						usetype,mod,exc																																																																																							0
+Any Normal Unique Weapon + 3 Magic Rings -> Exceptional version of Unique Weapon	1			100					4	weap,bas,uni	rin,mag,qty=3						usetype,mod,exc																																																																																							0
+Any Exceptional Unique Armor + 3 Jewels + 1 Rare Ring -> Elite Version of Unique Armor	1			100					5	armo,exc,uni	ring,rar	jew,qty=3					usetype,mod,eli																																																																																							0
+Any Exceptional Unique Weapon + 3 Jewels + Rare Amulet -> Elite Version of Unique Weapon	1			100					5	weap,exc,uni	amu,rar	jew,qty=3					usetype,mod,eli																																																																																							0
+ORT + THUL + Flawless gem + BASIC UNIQUE Weapon -> Exceptional Unique Weapon	1			100					4	weap,bas,uni	r09	r10	gem3				usetype,mod,exc																																																																																							0
+TAL + RAL +  Flawless gem + BASIC UNIQUE armor -> Exceptional Unique Armor	1			100					4	armo,bas,uni	r07	r08	gem3				usetype,mod,exc																																																																																							0
+AMN + SOL +  Perfect gem + EXCEPTIONAL UNIQUE Weapon -> Elite Unique Weapon	1			100					4	weap,exc,uni	r11	r12	gem4				usetype,mod,eli																																																																																							0
+THUL + AMN + Perfect gem + EXCEPTIONAL UNIQUE Armor -> Elite Unique Armor	1			100					4	armo,exc,uni	r10	r11	gem4				usetype,mod,eli																																																																																							0
+1 Perfect gem + 1 Jewel + 1 magic item -> NEW MAGIC ITEM	1			100					3	any,mag	jew	gem4					usetype,mag			100																																																																																				0
+1 Perfect Skull + 1 Rare Jewel + 1 rare item -> HIGHER RARE ITEM	1			100					3	any,rar	jew,rar	skz					usetype,rar		66	66																																																																																				0
+2 Standard Gems + 1 Socketed Weapon (Any Type) = 1 Socketed Magic Weapon (of same type)	1			100					3	weap,sock	gem2,qty=2						usetype,mag	30		30																																																																																				0
+2 Flawless Gems + 1 Magic Weapon = Socketed Magic Weapon (works with socketed but destroys gems)	1			100					3	weap,mag	gem3,qty=2						useitem,sock=3																																																																																							0
+3 Mana Potions + Normal  Weapon -> Socketed Superior Weapon	1			100					4	weap,nor	mpot,qty=3						useitem,hiq,sock=6																																																																																							0
+3 Mana Potions + Normal Armor -> Socketed Superior Armor	1			100					4	armo,nor	mpot,qty=3						useitem,hiq,sock=6																																																																																							0
+Town Portal Scroll + Any Socketed Item -> Unsocket (destroy gems)	1			100					2	any,sock	tsc						useitem,uns																																																																																							0
+Any Socked Item + Chipped Gem + Flawed Gem -> Unsocket (keep gems)	1			100					3	any,sock	gem0	gem1					useitem,rem																																																																																							0
+2 Rejuvenate Potions + Any Superior Item -> Socketed Superior Item	1			100					3	any,hiq	rvs,qty=2						useitem,sock=6																																																																																							0
+1 Socketed Item + Ruby (any type) = Item of the same type without sockets	1			100					2	any,sock	gemr						usetype			42																																																																																				0
+Any Ethereal Item + key -> Superior Normal Version	1			100					2	any,eth	tbk						usetype,hiq			42																																																																																				0
+Any Armor + ETH + Rare Amulet	1			100					3	armo	r05	amu,rar					useitem				ethereal		1	1		indestruct		1	1																																																																											0
+Any Armor + Mana Potion + Book of Identify -> Superior Version of Armor	1			100					3	armo	mpot	ibk					usetype,hiq																																																																																							0
+Any Weapon + Mana Potion + Book of Identify -> Superior Version of Weapon	1			100					3	weap	mpot	ibk					usetype,hiq																																																																																							0
+	1			100					2	9ta	jew,rar						useitem				stack			15	15																																																																															0
+	1			100					2	9ts	jew,rar						useitem				stack			15	15																																																																															0
+	1			100					2	7ta	jew,rar						useitem				stack			15	15																																																																															0
+	1			100					2	7b8	jew,rar						useitem				stack			15	15																																																																															0
+	1			100					2	7ts	jew,rar						useitem				stack			15	15																																																																															0
+Any Exceptional or Elite Throwing Spear or Throwing Axe + Rare Non-Ethereal No Socket Weapon [Other than Throwing Exc or Eli Throwing (Spears & Axes)] + bolts  -> Increase Stack size by 15 (continues)	0																																																																																																							0
+3 Magical Rings + Jewel -> Low Quality Rare Jewel	1			100					4	"rin,mag,qty=3"	jew						jew,rar	30																																																																																						0
+1 Rare Amulet + Jewel -> High Quality Rare Jewel (LVL 60)	1			100					2	amu,rar	jew						jew,rar	60																																																																																						0
+1 Rare Ring + Jewel -> High Quality Rare Jewel (LVL 50)	1			100					2	rin,rar	jew						jew,rar	50																																																																																						0
+The order is important (how ever sets can never spawn as ethereal) blizzard did this since if u would have 1 ethereal set item u would need to have all the other parts of that set as ethereal to in order to complete it how ever try it this way xh9,uni,eth,sock=1 will create a ethereal socket vamp gaze	0																																																																																																							0
+If you type 'useitem' in the output column and then put some stuff in the mod1, mod2, etc. columns you'll get the same item you put in, only with the added attributes in the mod1, mod2, etc. columns.	0																																																																																																							0
+Thank you for trying my mod or my CubeMain softmod.  Yes, it was inspired by others; no need to reinvent the wheel.  This cubemain and mod is how I choose to play Diablo 2 which is a very personal choice.  I try not to overpower with few exceptions, but you have to pay or cheat for it so...Happy Modding	0																																																																																																							0
+By the way, this is how you prolerly add comments to D2 cubemain.txt and make sure you use Diablo 2 excel file editor to trully appeciate this file and properly code it flawlessly.	0																																																																																																							0
